@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Racha Conta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #2D3436;
+            background: linear-gradient(135deg, #00B894 0%, #00D4AA 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            color: #00B894;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .logo p {
+            color: #636E72;
+            font-size: 14px;
+        }
+
+        h2 {
+            color: #00B894;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-bottom: 2px solid #00B894;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #2D3436;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        p, li {
+            color: #636E72;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #E8F8F5;
+            padding: 15px 20px;
+            border-radius: 10px;
+            border-left: 4px solid #00B894;
+            margin: 20px 0;
+        }
+
+        .contact {
+            background: #F8F9FA;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #00B894;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .date {
+            text-align: center;
+            color: #B2BEC3;
+            font-size: 12px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #DFE6E9;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            .logo h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Racha Conta</h1>
+            <p>Política de Privacidade</p>
+        </div>
+
+        <div class="highlight">
+            <strong>Resumo:</strong> O Racha Conta respeita sua privacidade. Coletamos apenas os dados necessários para o funcionamento do app e nunca vendemos suas informações.
+        </div>
+
+        <h2>1. Introdução</h2>
+        <p>Esta Política de Privacidade descreve como o aplicativo <strong>Racha Conta</strong>, desenvolvido por Antunes Tech, coleta, usa e protege as informações dos usuários.</p>
+        <p>Ao utilizar o aplicativo, você concorda com as práticas descritas nesta política.</p>
+
+        <h2>2. Dados Coletados</h2>
+
+        <h3>2.1 Dados de Conta (opcional)</h3>
+        <p>Se você optar por criar uma conta, coletamos:</p>
+        <ul>
+            <li><strong>E-mail:</strong> Para autenticação e recuperação de senha</li>
+            <li><strong>Senha:</strong> Armazenada de forma criptografada</li>
+        </ul>
+
+        <h3>2.2 Dados de Uso do App</h3>
+        <p>Para funcionalidade do aplicativo, armazenamos:</p>
+        <ul>
+            <li>Histórico de contas divididas (estabelecimento, valores, pessoas)</li>
+            <li>Preferências do usuário (tema claro/escuro)</li>
+        </ul>
+
+        <h3>2.3 Modo Offline</h3>
+        <p>O aplicativo pode ser usado sem criar conta. Neste caso, todos os dados são armazenados apenas localmente no seu dispositivo e não são enviados para nossos servidores.</p>
+
+        <h2>3. Como Usamos os Dados</h2>
+        <p>Utilizamos os dados coletados exclusivamente para:</p>
+        <ul>
+            <li>Permitir o funcionamento das funcionalidades do app</li>
+            <li>Sincronizar seu histórico entre dispositivos (se logado)</li>
+            <li>Enviar códigos de recuperação de senha quando solicitado</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Importante:</strong> Não utilizamos seus dados para publicidade, marketing ou qualquer finalidade comercial. Não vendemos, alugamos ou compartilhamos suas informações com terceiros.
+        </div>
+
+        <h2>4. Armazenamento e Segurança</h2>
+        <p>Os dados são armazenados de forma segura utilizando:</p>
+        <ul>
+            <li><strong>Supabase:</strong> Plataforma de banco de dados com criptografia em trânsito e em repouso</li>
+            <li><strong>Autenticação segura:</strong> Senhas criptografadas com bcrypt</li>
+            <li><strong>HTTPS:</strong> Todas as comunicações são criptografadas</li>
+        </ul>
+
+        <h2>5. Seus Direitos</h2>
+        <p>Você tem direito a:</p>
+        <ul>
+            <li><strong>Acessar</strong> seus dados pessoais</li>
+            <li><strong>Corrigir</strong> informações incorretas</li>
+            <li><strong>Excluir</strong> sua conta e todos os dados associados</li>
+            <li><strong>Usar offline</strong> sem fornecer dados pessoais</li>
+        </ul>
+
+        <h2>6. Dados de Menores</h2>
+        <p>O Racha Conta não é direcionado a menores de 13 anos. Não coletamos intencionalmente dados de crianças. Se você acredita que coletamos dados de um menor, entre em contato conosco.</p>
+
+        <h2>7. Alterações nesta Política</h2>
+        <p>Podemos atualizar esta política periodicamente. Alterações significativas serão comunicadas através do aplicativo ou por e-mail (se cadastrado).</p>
+
+        <h2>8. Contato</h2>
+        <div class="contact">
+            <p>Em caso de dúvidas sobre esta política ou sobre seus dados:</p>
+            <p><a href="mailto:contato@antunestech.com">contato@antunestech.com</a></p>
+        </div>
+
+        <div class="date">
+            <p>Última atualização: Janeiro de 2026</p>
+            <p>Antunes Tech - Todos os direitos reservados</p>
+        </div>
+    </div>
+</body>
+</html>
